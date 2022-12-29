@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url("../Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url("../Quicksand-Regular.ttf");
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+html {
+    font-size: 1vw;
+    position: relative;
+    min-height: 100%;
+    background-image: url(../background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 5rem 10rem 0rem 10rem;
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* tekst */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #ffdc00;
+}
+
+h1 {
+    font-family: Quicksand-Bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: Quicksand-Regular;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: Quicksand-Regular;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+i {
+    color: #ffdc00;
+}
+
+/* logo */
+
+.navbar-brand {
+    font-family: Quicksand-Bold;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+/* menu */
+
+.nav-link.text-dark {
+    margin-right: 1rem;
+}
+
+/* regulamin */
+
+.policy li {
+    margin-bottom: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* obrazki w Index */
+
+img {
+    display: inline-block;
+    width: 11rem;
+    margin-top: 2rem;
+    margin-right: 1.3rem;
+}
+
+/* tabela */
+
+table {
+    font-family: Quicksand-Regular;
+}
+
+thead {
+    font-family: Quicksand-Bold;
+    background: #fff;
+    border: none;
+}
+
+tr {
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    -o-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+tr:nth-child(even) {
+    background: #EEE;
+}
+
+tbody tr:hover {
+    background: rgba(255, 220, 0,0.15);
+}
+
+td a {
+    margin-left: 2rem;
+}
+
+/* formularze */
+
+label {
+    font-family: Quicksand-Bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    font-family: Quicksand-Regular;
+    margin-bottom: 1rem;
+}

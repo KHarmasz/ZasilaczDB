@@ -1,0 +1,51 @@
+﻿@model ZasilaczDB.Models.Zasilacz
+
+@{
+    ViewData["Title"] = "Usuń";
+}
+
+<h1>Usuń wybrany zasilacz</h1>
+<h2>Czy na pewno chcesz usunąć ten zasilacz?</h2>
+
+<div>
+    <h4>Zasilacz</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Marka)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Marka)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Moc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Moc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Certyfikat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Certyfikat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cena)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cena)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Usuń" class="btn btn-danger" /> |
+        <a asp-action="Lista"><i class="fa-solid fa-caret-right"></i> Powrót do listy</a>
+    </form>
+</div>
