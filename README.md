@@ -34,4 +34,4 @@ w pozostałych zajęciach uczestniczyłem stacjonarnie.
 
 ## 11. Zadania domowe podstawy programowania w .NET
 
-
+https://github.com/KHarmasz/PracaDomowa/tree/main
